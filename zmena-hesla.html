@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src data:; connect-src 'none'; base-uri 'none'; form-action 'none'">
 <meta name="color-scheme" content="light">
 <meta name="robots" content="noindex, nofollow">
 <title>Změna hesla · Statistiky Váš praktik</title>
@@ -216,6 +217,9 @@ footer{color:var(--mut);font-size:12.5px;margin-top:26px;display:flex;flex-direc
 .seg button{font:600 13px inherit;color:var(--mut);background:none;border:0;padding:0 14px;min-height:38px;cursor:pointer;white-space:nowrap}
 .seg button.on{background:var(--vp);color:#fff}
 .seg button:not(.on):hover{color:var(--vp-dark)}
+.nbadge{display:inline-block;min-width:16px;padding:0 6px;border-radius:99px;background:var(--vp,#C8102E);color:#fff;font-size:11px;font-weight:700;line-height:17px;text-align:center;vertical-align:middle}
+#pane-kontrola h3{margin:0 0 4px}
+#pane-kontrola table td,#pane-kontrola table th{vertical-align:middle}
 
 </style>
 </head>
